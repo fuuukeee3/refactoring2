@@ -1,4 +1,4 @@
-import statement from "./statement.js";
+import { statement, htmlStatement } from "./statement.js";
 
 // package.jsonを作ったらrequireが使えなくなった
 // const fs = require("fs");
@@ -31,4 +31,5 @@ const invoices = [
   },
 ];
 
-console.log(statement(invoices[0], plays));
+//console.log(statement(invoices[0], plays));
+console.log(htmlStatement(invoices[0], plays));
