@@ -31,5 +31,5 @@ const invoices = [
   },
 ];
 
-//console.log(statement(invoices[0], plays));
-console.log(htmlStatement(invoices[0], plays));
+console.log(statement(invoices[0], plays));
+//console.log(htmlStatement(invoices[0], plays));
